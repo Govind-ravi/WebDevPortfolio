@@ -1,5 +1,37 @@
 @import "tailwindcss";
 
-body {
-  font-family: "Nunito";
+@theme {
+  --color-primary-text: #fcfcfc;
+  --color-secondary-text: #fcfcfc;
 }
+
+body {
+  font-family: "FavoritBookC", sans-serif;
+  background-color: #0e1414;
+  color: #fcfcfc;
+  overflow-x: hidden;
+}
+* {
+  scrollbar-width: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* 
+  primary black bg: #0e1414
+*/
+
+/* Font Weight	Font Style	Font Family Name Used
+Bold	Italic	FavoritExtraBold
+Normal	Normal	FavoritBookC
+Normal	Italic	FavoritC
+Bold	Normal	FavoritExtraBoldC
+Bold	Italic	FavoritC
+Normal	Italic	FavoritBookC
+900 (Heavy)	Normal	FavoritHeavyC
+Bold	Normal	FavoritC
+300 (Light)	Normal	FavoritLightC
+300 (Light)	Italic	FavoritLightC
+Normal	Normal	FavoritC
+900 (Heavy)	Italic	FavoritHeavyC */
