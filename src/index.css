@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary-text: #fcfcfc;
+  --color-body-bg: #020202;
+  --color-primary-text: #2c281c;
   --color-secondary-text: #fcfcfc;
 }
 
 body {
   font-family: "FavoritBookC", sans-serif;
-  background-color: #0e1414;
+  background-color: #020202;
   color: #fcfcfc;
   overflow-x: hidden;
 }
@@ -23,15 +24,16 @@ html {
 */
 
 /* Font Weight	Font Style	Font Family Name Used
-Bold	Italic	FavoritExtraBold
-Normal	Normal	FavoritBookC
-Normal	Italic	FavoritC
-Bold	Normal	FavoritExtraBoldC
-Bold	Italic	FavoritC
-Normal	Italic	FavoritBookC
-900 (Heavy)	Normal	FavoritHeavyC
-Bold	Normal	FavoritC
 300 (Light)	Normal	FavoritLightC
-300 (Light)	Italic	FavoritLightC
 Normal	Normal	FavoritC
+Normal	Normal	FavoritBookC
+Bold	Normal	FavoritExtraBoldC
+Bold	Normal	FavoritC
+900 (Heavy)	Normal	FavoritHeavyC
+
+300 (Light)	Italic	FavoritLightC
+Normal	Italic	FavoritBookC
+Normal	Italic	FavoritC
+Bold	Italic	FavoritC
+Bold	Italic	FavoritExtraBold
 900 (Heavy)	Italic	FavoritHeavyC */

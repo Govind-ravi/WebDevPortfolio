@@ -5,6 +5,7 @@ const menuItems = [
   { name: "Home", link: "/" },
   { name: "About me", link: "/about" },
   { name: "Projects", link: "/projects" },
+  { name: "Learnings", link: "/learnings" },
   { name: "Contact me", link: "/contact" },
 ];
 
