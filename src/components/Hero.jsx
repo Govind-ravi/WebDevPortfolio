@@ -42,11 +42,16 @@ function Hero() {
           ))}
         </div>
         <motion.div className="relative group flex items-center gap-2 w-fit font-[FavoritBookC] px-4 py-2 runded bg-white/20 rounded-lg cursor-pointer overflow-hidden">
-          See my works
+          Explore My Work
           <FaLongArrowAltRight />
           <div className="absolute top-0 left-0 h-full w-0 group-hover:w-full bg-gradient-to-r from-white/20 via-transparent to-transparent transition-all duration-200 rounded-r-full group-hover:rounded-r-none" />
         </motion.div>
       </motion.div>
+
+      {/* Quote */}
+      <p className="absolute bottom-0 right-10 text-white/50 text-xl">
+        ❝A great developer doesn’t just write code—they architect experiences!
+      </p>
 
       <div className="w-[80vw] h-[300px] bg-radial from-white/50 via-amber-300/20 to-transparent absolute bottom-20 -translate-x-1/2 translate-y-1/2 left-0 rounded-full blur-[150px] -z-1" />
       <div className="w-[40vw] h-[200px] bg-radial from-white/50 via-amber-300/20 to-transparent absolute top-0 -translate-y-1/2 right-0 translate-x-1/2 rounded-full blur-[150px] -z-1" />
