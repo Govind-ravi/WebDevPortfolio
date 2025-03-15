@@ -49,7 +49,7 @@ function Hero() {
       </motion.div>
 
       {/* Quote */}
-      <p className="absolute bottom-0 right-10 text-white/50 text-xl">
+      <p className="absolute bottom-0 right-10 text-white/50 text-xl ">
         ❝A great developer doesn’t just write code—they architect experiences!
       </p>
 
